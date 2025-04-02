@@ -16,6 +16,7 @@ module.exports = defineConfig({
     ['list']
   ],
   use: {
+    headless: true,
     actionTimeout: 0,
     baseURL: 'https://timesorderpoc.blob.core.windows.net/qa-site/TechCore.html',
     trace: 'on-first-retry',
